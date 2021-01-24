@@ -2,6 +2,11 @@
 
   h2 {
     margin: 32px 0;
+
+    @media (max-width: 700px) {
+      font-size: 24px;
+      margin: 22px 0;
+    }
   }
 }
 
@@ -12,6 +17,7 @@
     margin: 0 15px;
     color: #828282;
   }
+
   .active {
     color: #000;
   }
