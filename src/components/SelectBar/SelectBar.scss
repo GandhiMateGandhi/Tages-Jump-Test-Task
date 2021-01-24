@@ -1,0 +1,53 @@
+.select {
+  margin-bottom: 20px;
+  display: flex;
+
+  label {
+    font-size: 12px;
+    color: #4F4F4F;
+    margin-left: 16px;
+  }
+
+  @media (max-width: 700px) {
+    display: initial;
+  }
+}
+
+.select-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55px;
+  margin-right: 24px;
+  width: 300px;
+
+  @media (max-width: 700px) {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: auto;
+  }
+}
+
+.select-material {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55px;
+  width: 300px;
+
+  @media (max-width: 700px) {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: auto;
+  }
+}
+
+.v-select {
+  font-family: "SF UI Text Regular", sans-serif;
+}
+
+.select-input {
+  background-color: #F2F2F2;
+  font-size: 14px;
+}
+

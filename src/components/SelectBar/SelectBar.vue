@@ -2,14 +2,14 @@
   <div class="select">
 
     <div class="select-price">
-      <label>Cортировать по</label>
+      <label>Cортировать по:</label>
       <v-select class="select-input" placeholder="Сортировать по цене" @input="sortByPrice($event)"
                 :options="sortingOptions"></v-select>
     </div>
 
     <div class="select-material">
       <label>Материал</label>
-      <v-select class="select-input" placeholder="Выберите материал" @input="loadItems($event)"
+      <v-select class="select-input" placeholder="Выберите материал" @input="filterItems($event)"
                 :options="filterOptions"></v-select>
     </div>
   </div>
@@ -22,7 +22,7 @@ export default {
   name: "SelectBar",
   computed: mapGetters(['sortingOptions', 'filterOptions']),
   methods: {
-    ...mapActions(['loadItems', 'sortByPrice'])
+    ...mapActions(['filterItems', 'sortByPrice'])
   },
 
 }

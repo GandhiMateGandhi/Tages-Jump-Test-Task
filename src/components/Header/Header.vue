@@ -17,7 +17,7 @@
 
 <script>
 
-import SelectBar from "@/components/Common/SelectBar/SelectBar";
+import SelectBar from "@/components/SelectBar/SelectBar";
 
 export default {
   name: "Header",

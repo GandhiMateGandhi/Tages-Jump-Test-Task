@@ -153,12 +153,11 @@ const actions = {
             }
         }
 
-
         commit('filteredByPrice', state.items);
         return response;
     },
 
-    loadItems({ commit }, event) {
+    filterItems({ commit }, event) {
         const response = state.items.filter(todo => {
             if (todo.material === event.id) {
                 return todo;
@@ -167,7 +166,7 @@ const actions = {
         commit('filteredByMaterial', response);
         return response;
     },
-    setArray() {
+    setLocalStorage() {
         const setLocalStorage = (localStorageKey, property, items) => {
             if (localStorage.getItem(localStorageKey) === null) {
                 const localStorageArray = items.map((item, index) => {
