@@ -1,0 +1,22 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    margin: inherit;
+    padding: inherit;
+}
+
+@font-face {
+    font-family: "SF UI Text Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Text Regular'), url('./fonts/SFUIText-Regular.woff') format('woff');
+}
+
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+    font-family: "SF UI Text Regular", sans-serif;
+    padding: 0 20px;
+}

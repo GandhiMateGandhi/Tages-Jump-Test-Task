@@ -1,0 +1,23 @@
+.header {
+
+  h2 {
+    margin: 32px 0;
+  }
+}
+
+.breadcrumbs {
+  margin-top: 32px;
+
+  &__divider {
+    margin: 0 15px;
+    color: #828282;
+  }
+  .active {
+    color: #000;
+  }
+
+  a {
+    text-decoration: none;
+    color: #828282;
+  }
+}
