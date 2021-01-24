@@ -1,24 +1,5 @@
 # tages-jump-task
 
-## Project setup
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Так как вью я начал изучать 5 дней назад, а прежде работал только с реактом, тестовое не смог выполнить как следует.
+Но все равно я решил скинуть, чтобы продемонстрировать свою старательность и стремление к знаниям)
