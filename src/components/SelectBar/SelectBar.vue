@@ -3,13 +3,13 @@
 
     <div class="select-price">
       <label>Cортировать по:</label>
-      <v-select class="select-input" placeholder="Сортировать по цене" @input="sortByPrice($event)"
+      <v-select id="sorting-select" class="select-input" placeholder="Сортировать по цене" @input="sortByPrice($event)"
                 :options="sortingOptions"></v-select>
     </div>
 
     <div class="select-material">
       <label>Материал</label>
-      <v-select class="select-input" placeholder="Выберите материал" @input="filterItems($event)"
+      <v-select id="filter-select" class="select-input" placeholder="Выберите материал" @input="filterItems($event)"
                 :options="filterOptions"></v-select>
     </div>
   </div>
@@ -28,6 +28,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import 'SelectBar';
 </style>
